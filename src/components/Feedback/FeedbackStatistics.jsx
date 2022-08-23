@@ -8,15 +8,6 @@ function FeedbackStatistics({
   totalValue,
   positivePersentage,
 }) {
-  // if (totalValue === 0) {
-  //   Notiflix.Report.failure(
-  //     'There is no feedback',
-  //     'please leave vote',
-  //     'confirm'
-  //   );
-  //   return <p>There is no feedback</p>;
-  // }
-
   return (
     <ul className={css.statisticsList}>
       <li className={css.statisticsItem}>Good: {good}</li>
